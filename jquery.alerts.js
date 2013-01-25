@@ -56,7 +56,7 @@
             	if(defaultOptions.customIcon === ''){
 		            $("<p id='infoMessage' style='margin:5px; padding:0px;'>" + message + "</p>").appendTo('#informDialog');
             	} else {
-		            $("<p id='infoMessage' style='margin:5px; padding:0px;'><i class='" + defaultOptions.customIcon + "' style='margin:5px; padding:0px;'></i>" + message + "</p>").appendTo('#informDialog');
+		            $("<p id='infoMessage' ><i class='" + defaultOptions.customIcon + "' ></i>" + message + "</p>").appendTo('#informDialog');
             	}
             } else {
 	            $("<p id='infoMessage' style='margin:5px; padding:0px;'><span class='ui-icon ui-icon-" + defaultOptions.icon + "' style='float:left; margin:5px 10px 20px 0px;'></span>" + message + "</p>").appendTo('#informDialog');
@@ -139,7 +139,7 @@
             	if(defaultOptions.customIcon === ''){
 		            $("<p id='promptMessage' style='margin:5px; padding:0px;'>" + message + "</p>").appendTo('#promptDialog');
             	} else {
-		            $("<p id='promptMessage' style='margin:5px; padding:0px;'><i class='" + defaultOptions.customIcon + "' style='margin:5px; padding:0px;'></i>" + message + "</p>").appendTo('#promptDialog');
+		            $("<p id='promptMessage'><i class='" + defaultOptions.customIcon + "'></i>" + message + "</p>").appendTo('#promptDialog');
 	            }
             } else {
 	            $("<p id='promptMessage'><span class='ui-icon ui-icon-" + defaultOptions.icon + "' style='float:left; margin:5px 10px 20px 0;'></span>" + message + "</p>").appendTo('#promptDialog');
@@ -236,7 +236,7 @@
             	if(defaultOptions.customIcon === ''){
 		            $("<p id='confirmMessage' style='margin:5px; padding:0px;'>" + message + "</p>").appendTo('#confirmDialog');
             	} else {
-		            $("<p id='confirmMessage' style='margin:5px; padding:0px;'><i class='" + defaultOptions.customIcon + "' style='margin:5px; padding:0px;'></i>" + message + "</p>").appendTo('#confirmDialog');
+		            $("<p id='confirmMessage'><i class='" + defaultOptions.customIcon + "'></i>" + message + "</p>").appendTo('#confirmDialog');
 	            }
             } else {
 	            $("<p id='confirmMessage'><span class='ui-icon ui-icon-" + defaultOptions.icon + "' style='float:left; margin:5px 10px 20px 0;'></span>" + message + "</p>").appendTo('#confirmDialog');
@@ -325,7 +325,7 @@
             	if(defaultOptions.customIcon === ''){
 		            $("<p id='alertMessage' style='margin:5px; padding:0px;'>" + message + "</p>").appendTo('#alertDialog');
             	} else {
-		            $("<p id='alertMessage' style='margin:5px; padding:0px;'><i class='" + defaultOptions.customIcon + "' style='margin:5px; padding:0px;'></i>" + message + "</p>").appendTo('#alertDialog');
+		            $("<p id='alertMessage'><i class='" + defaultOptions.customIcon + "'></i>" + message + "</p>").appendTo('#alertDialog');
 	            }
             } else {
 	            $("<p id='alertMessage'><span class='ui-icon ui-icon-" + defaultOptions.icon + "' style='float:left; margin:5px 10px 20px 0;'></span>" + message + "</p>").appendTo('#alertDialog');
